@@ -12,7 +12,10 @@
 
 
 ## Introduction
-This project is to control 3 servo motors using Arduino UNO R3 and transistors as a switch to saving battery  simulated with TINKERCAD circuit
+
+This project is to control 3 servo motors using Arduino UNO R3 and transistors as a switch to saving battery  
+simulated with TINKERCAD circuit,  while the servo motor finishes its task its turn off via transistor and software 
+
 
 ## Technologies
 Project is created with:
@@ -55,12 +58,27 @@ Project is created with:
 ### The circuit simulation  . [see here](https://www.tinkercad.com/things/1wRWSsRh1OS-control-multi-servo-motors-by-transistor-for-saving-battery/editel)
 
 
+![Screenshot 2022-08-17 054814](https://user-images.githubusercontent.com/64277741/185024165-2de232c2-1f3b-4f41-9cb8-1949b9fd8f26.png)
 
 Figure (1): Servo Motor at initial value (0 degree
 
 After 1 sec
-![1 2](https://user-images.githubusercontent.com/64277741/122783332-24ea0a80-d2ba-11eb-81ef-cee1f5e9950c.PNG)
-Figure (2): Servo Motor at 90 degrees 
+
+![2](https://user-images.githubusercontent.com/64277741/185024756-1d1188d2-7dd1-4a96-bdb0-4a95ba8a46a9.png)
+
+Figure (2): Servo 1  Motor rotet to 90 degrees 
+
+![3](https://user-images.githubusercontent.com/64277741/185024858-f9c5fb64-6d12-4da9-a394-a4a8264cb704.png)
+
+Figure (3): Servo 1  Motor is off
+
+![4](https://user-images.githubusercontent.com/64277741/185025000-edf0fbaa-3da1-43b2-9cdd-f77e2855470f.png)
+
+Figure (4): Servo 1 & 3 Motor is off servo 2 is ON 
+
+![5](https://user-images.githubusercontent.com/64277741/185025143-ef0a6e3e-9a2d-4dc5-8930-d2ffd7214d9b.png)
+
+Figure (4): Servo 1 & 2 Motor is off servo 3 is ON 
 
 #### The Code 
 
